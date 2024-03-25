@@ -5,6 +5,10 @@ async function cardHero(apiUrl) {
     .json()
     .then((res) => foo(res))
     .catch((err) => console.log(err))
+    .finally(() =>{
+        loading.style.display= 'none'
+
+    })
 }
 cardHero(api);
 const heroBox = document.querySelector(".hero-box")
@@ -15,6 +19,7 @@ function foo( dataProdact ){
         let div = document.createElement("div");
         div.classList.add("hero-card")
         div.innerHTML = `
+        
         <div class="hero-1">
         <div class="hero-btn-1">
           <button>YANGI</button>

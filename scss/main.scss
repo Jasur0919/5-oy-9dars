@@ -234,10 +234,11 @@ body {
 // MAIN  //////////////////
 main {
     background: #f4f7fd;
+    // margin-top: -50px;
 }
 
 .hero-box {
-    padding: 150px 0;
+    padding: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -386,5 +387,24 @@ h4 {
             font-size: 16px;
             font-weight: 200px;
         }
+    }
+}
+
+
+/// LOADING
+
+.loading-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    // width: 250px;
+    // height: 400px;
+    // background: blue($color: #3a77a0);
+    .loading-1 {
+        width: 250px;
+        height: 300px;
+        background: rgb(218, 218, 222);
     }
 }

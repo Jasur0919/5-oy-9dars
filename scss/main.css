@@ -187,7 +187,7 @@ main {
 }
 
 .hero-box {
-  padding: 150px 0;
+  padding: 50px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -315,4 +315,17 @@ h4 {
 .header-bot-box .header-moon h3 {
   font-size: 16px;
   font-weight: 200px;
+}
+
+.loading-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.loading-box .loading-1 {
+  width: 250px;
+  height: 300px;
+  background: rgb(218, 218, 222);
 }/*# sourceMappingURL=main.css.map */
