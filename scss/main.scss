@@ -256,6 +256,8 @@ main {
 }
 
 
+// 90 721 55 88  
+
 .hero-1 {
     
     button {
@@ -359,3 +361,30 @@ h4 {
     
 }
 
+
+.rowww {
+    // border: 0.20px solid gray;
+    margin: 18px 0;
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+
+///// MAIN BOT
+
+.header-bot-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 13px;
+    gap: 97px;
+    .header-moon {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        h3{
+            font-size: 16px;
+            font-weight: 200px;
+        }
+    }
+}

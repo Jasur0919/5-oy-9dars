@@ -291,4 +291,28 @@ h4 {
   background: #00bfaf;
   padding: 8px 10px;
   border-radius: 6px;
+}
+
+.rowww {
+  margin: 18px 0;
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+}
+
+.header-bot-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 13px;
+  gap: 97px;
+}
+.header-bot-box .header-moon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header-bot-box .header-moon h3 {
+  font-size: 16px;
+  font-weight: 200px;
 }/*# sourceMappingURL=main.css.map */
