@@ -216,7 +216,7 @@ main {
   transition: 0.3s linear;
 }
 .hero-1 img:hover {
-  transform: scale(1.015);
+  transform: scale(1.095);
 }
 
 .paragriph {
