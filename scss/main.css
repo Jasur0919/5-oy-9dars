@@ -42,6 +42,9 @@ body .header-box h1 {
   border: none;
   outline: none;
 }
+.btn-1:hover {
+  background-color: rgb(34, 132, 244);
+}
 
 .header-input form {
   display: flex;
@@ -59,6 +62,9 @@ body .header-box h1 {
   color: white;
   padding: 10.6px 20px;
   border-radius: 0 8px 8px 0;
+}
+.header-input form h3:hover {
+  background-color: rgb(34, 132, 244);
 }
 
 .add {
@@ -287,10 +293,16 @@ h4 {
   background: rgb(77, 156, 247);
   padding: 8px 25px;
 }
+.card-btn button:hover {
+  background-color: rgb(34, 132, 244);
+}
 .card-btn .card-svg {
   background: #00bfaf;
   padding: 8px 10px;
   border-radius: 6px;
+}
+.card-btn .card-svg:hover {
+  background: #028b80;
 }
 
 .rowww {

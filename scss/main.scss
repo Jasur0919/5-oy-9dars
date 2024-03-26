@@ -43,6 +43,10 @@ body {
     background-color: rgb(77, 156, 247);
     border: none;
     outline: none;
+    &:hover {
+        background-color: rgb(34, 132, 244) ;
+        
+    }
 
 }
 
@@ -68,6 +72,10 @@ body {
         color: white;
         padding: 10.6px 20px;
         border-radius: 0 8px 8px 0;
+        &:hover {
+            background-color: rgb(34, 132, 244) ;
+
+        }
     }
   }
 }
@@ -350,12 +358,20 @@ h4 {
     button {
         background: rgb(77, 156, 247);
         padding: 8px 25px;
+        &:hover {
+            background-color: rgb(34, 132, 244) ;
+
+        }
     }
     .card-svg {
         background: #00bfaf;
         padding: 8px 10px;
         // margin-top: 10px;
         border-radius: 6px;
+        &:hover {
+            background: #028b80;
+
+        }
 
     }
 
