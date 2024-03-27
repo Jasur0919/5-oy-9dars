@@ -50,3 +50,12 @@ function foo( dataProdact ){
     })
     heroBox.appendChild(fragment)
 }
+
+// MENU ///////////////
+
+const menu = document.querySelector(".menu-svg")
+const product = document.querySelector(".product")
+
+menu.addEventListener("click", () => {
+    product.classList.toggle("google")
+})

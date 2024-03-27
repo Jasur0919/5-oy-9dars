@@ -24,6 +24,7 @@ body {
         justify-content: center;
         gap: 10px;
         padding-top: 20px;
+        // position: fixed;
         img {
             width: 45px;
             height: 45px;
@@ -32,6 +33,11 @@ body {
             color: rgb(78, 73, 73);
         }
     }
+}
+
+.header-asaxiy {
+    display: flex;
+    align-items: center;
 }
 
 .btn-1 {
@@ -112,6 +118,11 @@ body {
     justify-content: center;
     gap: 45px;
     margin-left: 20px;
+    // background: #ff0000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .add {
@@ -313,8 +324,6 @@ main {
     }
 }
 
-
-
 .hero-img-1 {
     margin-left: 33px;
 }
@@ -378,7 +387,6 @@ h4 {
     
 }
 
-
 .rowww {
     // border: 0.20px solid gray;
     margin: 18px 0;
@@ -423,4 +431,111 @@ h4 {
         height: 300px;
         background: rgb(218, 218, 222);
     }
+}
+
+//  MENU  /////////////////////
+
+.menu-svg {
+    display: none;
+}
+
+
+
+
+
+//  MEDIA  /////////////////
+
+@media(max-width: 1320px){
+    .header-input {
+        // display: none;
+        .input-search {
+            width: 200px;
+        }
+    }
+
+    .header-bot-box {
+        display: flex;
+        gap: 72px;
+    }
+}
+
+@media(max-width: 1150px){
+    .header-input {
+        display: none;
+        
+    }
+    .header-bot-box{
+        display: flex;
+        gap: 20px;
+    }
+    // .product {
+    //     display: flex;
+    //     gap: 20px;
+    // }
+}
+
+
+@media(max-width: 850px){
+    .header-box {
+        position: relative;
+    }
+    .product {
+        display: none !important;
+        display: flex;
+        // gap: 10px;
+    }
+    .btn-1 {
+        display: none;
+    }
+    .menu-svg {
+        display: block;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background: red;
+        top: -100%;
+        left: 0;
+        right: 0;
+
+        // background-color: yellowgreen;
+        // padding: 20px 20px;
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+        // position: fixed;
+        // top: 0;
+        // right: 0;
+        // left: 0;
+    }
+
+    .google {
+        top: 76px;
+    }
+
+    .header-box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-box {
+        display: flex;
+        justify-content: space-between !important ;
+        // h1 {
+        //     margin-right: 490px;
+        // }
+    }
+    
+
+}
+
+@media(max-width: 730px){
+    .header-bot-box{
+        display: none;
+    }
+
+    
+     
 }
